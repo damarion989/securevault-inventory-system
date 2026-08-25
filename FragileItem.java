@@ -14,4 +14,9 @@ public boolean isWrapped() {
   returen isWrapped;
 }
 
-  
+
+@Override
+public String toString() {
+  return "Item: " + getItemName() + ", Value: $" + getItemValue() + ", Wrapped: " + isWrapped;
+    }
+}
